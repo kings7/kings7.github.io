@@ -1,1 +1,5 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+.navbar {
+    background: rgb(179,212,252);
+    /* I strongly encourage you to learn to write gradients by hand if interested, but i made this here: https://cssgradient.io/ */
+    background: linear-gradient(90deg, rgba(179,212,252,1) 0%, rgba(86,59,131,0.4) 75%);
+}
