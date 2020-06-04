@@ -1,5 +1,4 @@
 .navbar {
-    background: rgb(179,212,252);
-    /* I strongly encourage you to learn to write gradients by hand if interested, but i made this here: https://cssgradient.io/ */
-    background: linear-gradient(90deg, rgba(179,212,252,1) 0%, rgba(86,59,131,0.4) 75%);
+    background: rgba(243, 21, 21, 0.685);
+    background: linear-gradient(90deg, rgba(252, 73, 60, 0.582) 0%, rgba(86,59,131,0.4) 75%);
 }
