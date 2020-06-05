@@ -2,7 +2,7 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 /* --------------------------- */
@@ -13,20 +13,20 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.flex-container {
+.flex-container-a {
     display: flex;
     flex-flow: row wrap;
-    font-size: large;
     padding: 2em;
-    margin: 1.5em;
+    margin: 1em;
     list-style: none;
   }
   
-  .flex-item {
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 2em;
-    text-align: center;
+  .flex-item-a {
+    padding: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.4em;
+    text-align: justify;
   }
   
 
@@ -36,23 +36,23 @@ h1 {
   /* Media Queries */
 
   /* Large Screens*/
-  .flex-container {
+  .flex-container-a {
     display: flex;
     flex-flow: row;
     justify-content: left;
   }
   
   /* Medium screens */
-  @media all and (max-width: 800px) {
-    .flex-container {
+  @media all and (max-width: 768px) {
+    .flex-container-a {
         flex-flow: row wrap;
         justify-content: left;
     }
   }
   
   /* Small screens */
-  @media all and (max-width: 500px) {
-    .flex-container {
+  @media all and (max-width: 576px) {
+    .flex-container-a {
       flex-direction: column;
     }
   }
