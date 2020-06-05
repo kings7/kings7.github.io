@@ -13,9 +13,46 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.aboutus {
-    padding-left: 2em;
-    padding-right: 2em;
-    text-align: justify;
-}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: large;
+    padding: 2em;
+    margin: 1.5em;
+    list-style: none;
+  }
+  
+  .flex-item {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+  }
+  
 
+
+/* ------------------------------ */
+
+  /* Media Queries */
+
+  /* Large Screens*/
+  .flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+  }
+  
+  /* Medium screens */
+  @media all and (max-width: 800px) {
+    .flex-container {
+        flex-flow: row wrap;
+        justify-content: left;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
