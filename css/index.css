@@ -1,4 +1,21 @@
-.navbar {
-    background: rgba(243, 21, 21, 0.685);
-    background: linear-gradient(90deg, rgba(252, 60, 46, 0.616) 0%, rgba(243, 221, 219, 0.4) 75%);
+/* Tag Rules */
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5em;
 }
+
+/* --------------------------- */
+
+/* Class Rules */
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.aboutus {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: justify;
+}
+
