@@ -5,9 +5,9 @@ h1 {
     margin-bottom: .5em;
 }
 
-/* --------------------------- */
 
-/* Class Rules */
+
+/* Class Rules 
 
 .navbar {
     margin-bottom: 1rem;
@@ -31,18 +31,18 @@ h1 {
   
 
 
-/* ------------------------------ */
+/* ------------------------------ 
 
-  /* Media Queries */
+  
 
-  /* Large Screens*/
+  
   .flex-container-a {
     display: flex;
     flex-flow: row;
   
   }
   
-  /* Medium screens */
+  
   @media all and (max-width: 768px) {
     .flex-container-a {
         flex-flow: row wrap;
@@ -50,9 +50,11 @@ h1 {
     }
   }
   
-  /* Small screens */
+  
   @media all and (max-width: 576px) {
     .flex-container-a {
       flex-direction: column;
     }
   }
+
+  */
